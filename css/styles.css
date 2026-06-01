@@ -921,6 +921,7 @@ section h2::after {
     }
 
     .service-item {
+
         border-bottom: 1px solid var(--border);
     }
 
@@ -1042,10 +1043,11 @@ section h2::after {
     .contact-form,
     .contact-block {
         padding: 1.25rem;
+        max-width: 250px;
     }
 
     .service-item {
-        padding: 2rem 0;
+        padding: 2rem 2rem;
     }
 
     .form-row {
